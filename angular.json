@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "HouseRentingWebpage": {
+    "HouseRentalWebpage": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -23,7 +23,7 @@
             "assets": [
               {
                 "glob": "**/*",
-                "input": "public"
+                "input": "public",
               }
             ],
             "styles": [
@@ -59,10 +59,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "HouseRentingWebpage:build:production"
+              "buildTarget": "HouseRentalWebpage:build:production"
             },
             "development": {
-              "buildTarget": "HouseRentingWebpage:build:development"
+              "buildTarget": "HouseRentalWebpage:build:development"
             }
           },
           "defaultConfiguration": "development"
